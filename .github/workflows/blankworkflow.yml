@@ -1,0 +1,10 @@
+name: blankworkflow
+on: workflow_dispatch
+jobs:
+  testone:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Print greeting
+        run: echo "Hello Actions"
+      - name: Print python version
+        run: python --version
