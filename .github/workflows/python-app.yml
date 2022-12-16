@@ -1,0 +1,9 @@
+name: modeltestingworkflow
+on: workflow_dispatch
+jobs:
+  testone:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Print greeting
+        run: echo "Hello Actions"
+      
