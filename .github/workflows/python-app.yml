@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello Actions"
+      - name: Print python version
+        run: python --version
       
